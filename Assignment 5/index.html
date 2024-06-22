@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Game Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="leftcolumn">
+        <form id="addtheplayer" onsubmit="AddPlayer(event);">
+
+            <label for="username">Name:</label>
+            <input id="username" type="text" name="username" value = "">
+            <label for="weapons">Weapons:</label>
+            <input id="weapons" type="text" name="weapons" value = "">
+    
+            <label for="health">Health:</label>
+            <input id="health" type="number" name="health" value = "">
+            <label for="points">Total Points:</label>
+            <input id="points" type="number" name="points" value = "">
+            
+            <br>
+            <br>
+            <button type="submit">Add Player</button>
+        </form>
+        <br>
+        <button onclick="ClearList();">Clear List</button>
+    </div>
+    
+
+    <div id = "rightcolumn">
+        Players:
+        <div id="PlayerList"></div>
+    </div>
+
+   
+
+
+</body>
+</html>
+
+
+<script src="indexcode.js"></script>

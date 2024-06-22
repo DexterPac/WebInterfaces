@@ -1,0 +1,43 @@
+body {
+    background-color: antiquewhite;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+}
+
+
+#rightcolumn {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 5px;
+    width: 200px;
+    height: 1000px;
+    float: right;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#leftcolumn {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    padding: 5px;
+    width: 200px;
+    height: 1000px;
+    float: left;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 20px;
+}
+
+#PlayerList {
+    font-weight: normal;
+    padding: 10px;
+}
